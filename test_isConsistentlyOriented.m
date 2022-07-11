@@ -17,6 +17,7 @@ N = 11;
 %cmap = brewermap(N,'Set3');
 cmap = colormap("lines");
 cmap = cmap(1:N,:);
+close(gcf);
 %\\°//.\\°//.\\°//.\\°//.\\°//.\\°//.\\°//.\\°//.\\°//.\\°//.\\°//.\\°//.\\
 
 % Instantiate camera pairs (reference frame of the first camera = world reference frame)
